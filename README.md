@@ -20,11 +20,11 @@ Double Sideband Suppressed Carrier (DSB-SC) is a type of amplitude modulation wh
 ```
 import numpy as np
 import matplotlib.pyplot as plt
-Am = 5.4
-Ac = 10.8
-fm = 434
-fc = 4340
-fs = 43400
+Am = 5.3
+Ac = 10.6
+fm = 199
+fc = 1990
+fs = 19900
 t = np.arange(0, 2/fm, 1/fs)
 m = Am * np.cos(2 * np.pi * fm * t)
 c = Ac * np.cos(2 * np.pi * fc * t)
